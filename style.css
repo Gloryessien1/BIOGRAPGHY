@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@media screen (min-width: 600px;) and (max-width:800px;){
+  body{
+    background-color: aqua;
+  }
+}
+  
+
+body {
+  font-family: "josefin sans", sans-serif;
+  background-color: bisque;
+  background-attachment: fixed;
+  border: 0cqmax;
+  border-radius: 20px;
+}
+  
+
+
+
+/* -------------------- about-me-section ---------------------------*/
+
+.about-me {
+  height: 100vh;
+  width: 100%;
+  max-width: 80%;
+  margin: 0 auto;
+}
+h2 {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 5%;
+  text-decoration: underline;
+}
+
+.about-me-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 5%;
+  /* text-align: center; */
+}
+
+.about-text {
+  width: 50%;
+}
+
+.about-para {
+  color: rgb(8, 8, 8);
+  font-size: 20px;
+  border-radius: 20px;
+  border: 50px;
+  border-color: blue;
+}
+
+.my image{
+  width: 40%;
+  border: 20px;
+  border-radius: 10px; 
+  left: 60%;
+  top: 25%;
+  bottom: 70%;
+}
+
+.change-section{
+  color: blue;
+  font-size: 20px;
+
+}
+.learning-status{
+  color: rgb(12, 87, 87);
+  border: 0cap;
+  border-radius: 20px;
+
+}
+
